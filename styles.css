@@ -12,14 +12,17 @@ body{
     background-color: #379683;
     width: 200px;
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 5px 20px 5px;
     padding: 15px 10px 10px 10px;
     border-radius: 15px;
     border-width: 3px;
     border-color: #000000;
-    display:inline-block;
-    
+    flex: 1 1 auto;
   }
+  .home-flex{
+    display: flex;
+    flex-direction: row;
+}
 
   .menu-image{
     max-width: 200px;
@@ -72,19 +75,25 @@ body{
     color: #05386B;
 }
 
+.recipe-steps-flex{
+    display: flex;
+    flex-direction: row;
+}
+
 .recipe-method {
     color: white;
     background-color: #379683;
-    width: 33%;
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 10px 20px 10px;
     padding: 15px 10px 10px 10px;
     border-radius: 15px;
     border-width: 3px;
     border-color: #000000; 
-    line-height: 1.2em;   
+    line-height: 1.2em; 
+    flex: 1 1 0%;  
 }
 
-.recipe-h3{
-    transform:rotateX(15);
+.recipe-ul{
+    text-align: left;
+    
 }
